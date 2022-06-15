@@ -26,10 +26,12 @@ const Home = () => {
               <h1>
                 {items.city} {items.lastName}
               </h1>
+              <div className='description'>
               <p>Email : {items.email}</p>
               <p>Company : {items.company}</p>
               <p>Skill : {items.skill}</p>
               <p>Average : {average}</p>
+              </div>
             </div>
           </div>
         );

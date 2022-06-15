@@ -28,6 +28,9 @@
 .details p {
     font-size: 1.6vw;
 }
+.description {
+    padding-left: 7%;
+}
 @media only screen and (max-width: 450px) {
     .flex img {
         width: 25%;
