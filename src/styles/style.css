@@ -2,4 +2,43 @@
     margin: 0;
     padding: 0;
 }
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    border-bottom: 1px solid lightgray;
+    padding: 2%;
 
+}
+.flex img {
+    width: 12%;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.details h1 {
+    font-size: 3vw;
+
+}
+.details p {
+    font-size: 1.6vw;
+}
+@media only screen and (max-width: 450px) {
+    .flex img {
+        width: 25%;
+
+    }
+    .details h1 {
+        font-size: 6vw;
+    
+    }
+    .details p {
+        font-size: 3.5vw;
+    }
+
+}
